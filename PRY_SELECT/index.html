@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +11,15 @@
     </header>
     <main>
         <form action="server.html" method="get">
+
+            <label for="id">INGRESE SU ID:</label>
+            <input type="text" name="id" id="id" placeholder="INGRESE SU ID" pattern="[A-Z]{3}[0-9]{4}" required>
+
             <!--SELECT EN FORM-->
             <label for="lista_frutas">LISTA FRUTAS:</label>
+
+            <input type="hidden" name="cedula_usuario" value="1713930285">
+
             <select name="lista_frutas" id="lista_frutas" required autofocus>
                 <option value=""></option>
                 <option value="naranja">NARANJA</option>
@@ -42,6 +49,10 @@
                 </optgroup>
             </select>
             <br>
+
+            <!--TEXT AREA-->
+            <label for="descripcion">INGRESE SU DESCRIPCION:</label>
+            <textarea name="descripcion" id="descripcion" required rows="5" cols="50">HOLA CHICOS DE WEB </textarea>
             <button type="submint">ENVIAR AL SERVIDOR</button>
         </form>
     </main>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGINA</title>
+</head>
+<body>
+    <header>
+        <h1>PAGINA DE ACTIVIDAD CSS</h1>
+    </header>
+    <main>
+    <form>
+        <label for="apellidos">INGRESE SU NOMBRE</label>
+        <input type="text" name="nombres" id="nombres" placeholder="Ejm: Daniel" required><br>
+        <br>
+
+        <label for="lista_frutas">LISTA CARROS:</label>
+        <select name="lista_carros" id="lista_carros" required autofocus>
+                <option value=""></option>
+                <option value="toyota">TOYOTA</option>
+                <option value="chevrolet">CHEVROLET</option>
+                <option value="ford">FORD</option>
+        </select>
+        <br>
+
+        <label for="descripcion">INGRESE SU DESCRIPCION:</label>
+        <textarea name="descripcion" id="descripcion" required rows="5" cols="50">INGRESE SU DESCRIPCION AQUI</textarea>
+
+        <label>GENERO:</label>
+        <label for="hombre">HOMBRE</label>
+        <input type="radio" name="sexo" id="hombre" value="hombre" checked>
+        <label for="mujer">MUJER</label>
+        <input type="radio" name="sexo" id="mujer" value="mujer">
+        <br>
+
+        <label>SELECCIONE DIAS DE CLASE DE WEB:</label><br>
+        <label for="lunes">LUNES</label>
+        <input type="checkbox" name="dias[]" id="lunes" value="lunes" checked>
+        <label for="martes">MARTES</label>
+        <input type="checkbox" name="dias[]" id="martes" value="martes" disabled>
+        <label for="miercoles">MIERCOLES</label>
+        <input type="checkbox" name="dias[]" id="miercoles" value="miercoles" checked>
+        <label for="jueves">JUEVES</label>
+        <input type="checkbox" name="dias[]" id="jueves" value="jueves" disabled>
+        <label for="viernes">VIERNES</label>
+        <input type="checkbox" name="dias[]" id="viernes" value="viernes" checked>
+        <br>
+
+
+    </form>            
+    </main>
+</body>
+</html>
+</body>
+</html>

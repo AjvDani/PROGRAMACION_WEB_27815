@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS EN PAGINA</title>
+
+    <style>
+        
+        /* Selector universal */
+        /* {
+            color: aqua;
+            margin: 0px;
+            padding: 0px
+        } 
+        }*/
+
+        /* Selector por elemento */
+        h1 {
+            color: blueviolet;
+            font-size: 15px;
+            text-align: center;
+
+        }
+
+        p{
+            color: yellow;
+        }
+
+        
+        /* elemento etiquetas */
+        button{
+            background-color: blue;
+            color: black;
+            font-size: 14px;
+            margin: 2px;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        /* propiedad class de nuestras etiquetas */
+        .boton-personalizado{
+            background-color: chartreuse;
+            width: 100%;
+            color: red;
+            border: none;
+            font-weight: bold;
+            text-align: left;
+            padding: 5px;
+            margin: 2px;
+
+        }
+
+        .text-derecho{
+            text-align: right;
+        }
+
+        .text-center{
+            text-align: center;
+        }
+
+        #boton-unico{
+            background-color:brown
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <h1>
+        HOLA MUNDO
+    </h1>
+    <h1>
+        2025
+    </h1>
+
+    <p>
+        WELCOME TO PROGRAMACION WEB
+    </p>
+    <p>
+        PARRAFO DOS
+    </p>
+
+    <hr>
+
+    <button>BOTON SIN CLASE</button><button>BOTON SIN CLASE</button><button>BOTON SIN CLASE</button><button>BOTON SIN CLASE</button><button>BOTON SIN CLASE</button>
+
+    <hr>
+    <br>
+    
+    <button class="boton-personalizado text-derecho">BOTON CON CLASE</button><button class="boton-personalizado">BOTON CON CLASE</button><button class="boton-personalizado">BOTON CON CLASE</button><button class="boton-personalizado">BOTON CON CLASE</button><button class="boton-personalizado text-center">BOTON CON CLASE</button>
+
+    <hr>
+    <br>
+    <button id="boton-unico">ADIOS</button>
+
+</body>
+</html>
